@@ -1,0 +1,11 @@
+(Design/Architectural)(Patterns/decisions):
+
+* Separated the code using the Spring MVC concept into different layers to maintain the modularity of the code ;
+
+* Created Service as interface and given Implementaion using ServiceImpl so to increase the readibility of the code for other developers ;
+
+* Used Proper Annotations to ensure bug free code and correct running of the program;
+
+* Used the concept of DTOs to ensure privacy and restricting user to directly interacting with the database;
+
+* Used Custom JPA functions to make the most out of ORM Hibernate;

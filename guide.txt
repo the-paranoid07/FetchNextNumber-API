@@ -1,0 +1,21 @@
+Project Name : FetchNextNumber API
+
+AIM : To fetch a number based on a given category code with certain rules.
+
+Requirements:
+
+Java (JDK 8 or higher)
+MySQL Database
+Postman (or any API testing tool)
+
+User Guide :
+
+=> Create a MySQL database with the name of your choice ;
+=> Configure Database Connection using the 'application.properties' and the appropriate connection details like URL , username and password .
+=> Run the application .
+=> Open Postman(or any API testing tool) and use the POST reques method and give the endpoint to be 'POST http://localhost:8080/FetchNextNumber/'.
+=> Set the requestBody as JSON with the following structure :
+       {
+          "categoryCode" : "ACB"
+       }
+=> Use MySQL database to see the schema getting updated.
